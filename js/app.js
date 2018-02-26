@@ -40,7 +40,7 @@ const validateCard = valTajeta => {
 };
 
 const validateExp = fechaVencimiento => {
-  if (fechaVencimiento.length > 99 && fechaVencimiento <1000) {
+  if (fechaVencimiento.length > 4) {
     console.log("true");
   }else {
     console.log("false");
