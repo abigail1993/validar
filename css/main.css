@@ -1,0 +1,13 @@
+body {
+  background-image: url(../assets/images/tarjeta-1.jpg);
+}
+
+form {
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  height: 70vh;
+  font-size: 3vh;
+  margin: 15vh auto;
+  padding: 15vh;
+  width: 100vh;
+}

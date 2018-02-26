@@ -15,30 +15,50 @@ function validateCardDetails(element) {
   let total = array.map((uno) => {
     return uno.value;// esto muestra un array de los datos que se metieron en los input
   });
-/*  total.forEach((inputValidate) => {
-})*/
+
+console.log(total);// saca el arreglo en consola
+
 
   let valTajeta = document.getElementById('cn').value;
   let fechaVencimiento = document.getElementById('exp').value;
   let numSeguridad = document.getElementById('cvv').value;
   let name = document.getElementById('name').value;
 
-  console.log(valTajeta);
-
-
-  console.log(total);
-  getValues(element)
+  console.log(valTajeta); // con esto muestra lo que se guarda en la let
+  console.log(fechaVencimiento);
+  console.log(numSeguridad);
+  console.log(name);
 }
-  console.log(array);
-  const getValues = (array) => {
-}
+// condiciones para validar cada input
 
-function validCard (element){
-  let compararTarjeta = valTajeta =>{
-    if(valTajeta < 16){
-    }
-    console.log(compararTarje);/// tengo que hacer expresiones regulares donde ver que sean 16 numeros 
-
+const validateCard = valTajeta => {
+   if(valTajeta.length == 16){
+    console.log("true");
+  } else {
+    console.log("false");
   }
+};
 
-}
+const validateExp = fechaVencimiento => {
+  if (fechaVencimiento.length > 99 && fechaVencimiento <1000) {
+    console.log("true");
+  }else {
+    console.log("false");
+  }
+};
+
+const validateCvv  = numSeguridad => {
+  if (numSeguridad.length > 99 && numSeguridad < 1000) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+};
+
+const validateName = name => {
+  if (name.length > 20 && name < 30) {
+    console.log("true");
+  } else{
+    console.log("false");
+  }
+};
