@@ -128,7 +128,7 @@ const valdCvv = elementCvv =>{
 
 //funcion que valida el input del nombre
 const valdName = nombre =>{
-  if(nombre.length <= 30){
+  if(nombre.length <= 20){
     nameInp.style.border ="2px solid #f91818";
   }else {
     nameInp.style.border = "2px solid #56d937";
