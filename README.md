@@ -9,4 +9,4 @@ Este proyecto es de una validación de tarjeta de crédito y sus datos de vigenc
 
 ![imagen del proyecto](assets/images/validador.png)
 ---
-Proyecto realizado para Laboratoria.
+Desarrollado para Laboratoria.
