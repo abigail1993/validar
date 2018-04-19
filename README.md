@@ -9,4 +9,5 @@ Este proyecto es de una validación de tarjeta de crédito y sus datos de vigenc
 ![validador](https://user-images.githubusercontent.com/32883910/38827841-d246056a-4179-11e8-96ec-6fe51e6a7bf0.png)
 
 ---
-Desarrollado para Laboratoria.
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
