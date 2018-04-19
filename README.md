@@ -1,4 +1,4 @@
-# Valida datos de tarjetas de crédito
+# Valida datos de tarjetas de credito
 
 
 ---
